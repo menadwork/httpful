@@ -23,9 +23,15 @@
       "homepage": "http://moelleken.org/"
     }
   ],
+  "repositories": {
+    "portable-utf8": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/portable-utf8"
+    }
+  },
   "require": {
     "php": ">=5.3",
-    "voku/portable-utf8": "~3.0",
+    "portable-utf8": "~3.0",
     "ext-curl": "*"
   },
   "autoload": {
